@@ -15,7 +15,7 @@ body {
 nav {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: small;
+    font-size: normal;
     text-transform: uppercase;
 }
 
@@ -32,12 +32,18 @@ ul {
 .li-redsocial {
     background-color: #b2b2b2;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-right: 10px;
+}
+
+.li-redsocial:hover {
+    background-color: white;
 }
 
 .a-redsocial {
@@ -59,6 +65,8 @@ nav {
 
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav div {
@@ -68,4 +76,13 @@ nav div {
 
 #list-redsocial {
     margin-left: 64px;
+}
+
+.img-redsocial {
+    width: 16px;
+    height: 16px;
+}
+
+.li-cinear-ext {
+    margin-left: 24px;
 }
