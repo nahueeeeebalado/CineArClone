@@ -86,3 +86,29 @@ nav div {
 .li-cinear-ext {
     margin-left: 24px;
 }
+
+.main-section {
+    background-color: #00DCE4;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0% 5%;
+}
+
+.main-overlay {
+    position: absolute;
+}
+
+.main-gradient {
+    position: absolute;
+}
+
+.main-video {
+    width: 60%;
+}
