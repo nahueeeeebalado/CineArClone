@@ -126,3 +126,13 @@ nav div {
 .main-video {
     width: 60%;
 }
+footer{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.bar-logos{
+  display: flex;
+  justify-content: center;
+}
